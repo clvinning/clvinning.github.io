@@ -34,8 +34,17 @@ header {
 }
 
 #menu {
-	height: 850px;
 	background-color: #46576E;
+	padding-bottom: 1em;
+}
+
+#menu .content {
+	width: 95%;
+}
+
+#menu img {
+	display: block;
+	width: 100%;
 }
 
 #contact {
