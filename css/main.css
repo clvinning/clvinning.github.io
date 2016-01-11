@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 /* All Content Styles --------------------------- */
 
 .main-wrapper {
@@ -91,7 +90,10 @@ a {
 
 
 .products-wrapper h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  color: aliceblue;
   position: relative;
   top: -55%;
   width: 50%;
