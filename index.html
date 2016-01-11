@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Salty Snapper</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
-	<head>
-		<meta charset="utf-8">
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-		<title>Woodstack</title>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-		
-	</head>
-
-	<body>
-		<div id="wrapper">
-			<header>
-				<nav>
-					<ul>
-						<li><a href="#about">About</a></li>
-						<li><a href="#kitchen">Kitchen</a></li>
-						<li><a href="#menu">Menu</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-
-			
-			<div id="about">
-				<div class="content">
-					<h1>Woodstack</h1>
-					<h2>Southern barbeque</h2>
-					<p>Pride in our BBQ dolor sit amet, consectetur adipiscing elit. Duis ac odio tristique, pellentesque ligula vel, suscipit ante. Nunc eu leo auctor leo placerat aliquet. Quisque feugiat ultrices turpis, ac mattis lorem consequat sit amet. Mauris varius magna id nisl iaculis, sagittis commodo lectus scelerisque. </p>
-				</div>
-			</div>
-
-				<div id="kitchen">
-					<div class="content">
-						<h2>Our Kitchen</h2>
-						<p>Smoke em if you got em Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac odio tristique, pellentesque ligula vel, ac mattis lorem consequat sit amet. Mauris varius magna id nisl iaculis, sagittis commodo lectus scelerisque. </p>
-					</div>
-				</div>
-
-				<div id="menu">
-					<div class="content">
-						<h2>Our Menu</h2>
-						<div id="menu-container">
-							<img src="img/menu.jpg">
-						</div>
-					</div>
-				</div>
-
-				<div id="contact">
-					<div class = "content">
-						<h2>Contact Woodstack</h2>
-					</div>	
-				</div>
-			
-		</div>
-
-	
-
-	
-	</body>
-
+  <body>
+  
+    <section class="home-wrapper main-wrapper">
+      <h1>Home Content [logo and nav menu to overlay background]</h1>
+    </section>
+    
+    <section class="products-wrapper main-wrapper">
+      <a href="#">
+        <section id="drinks">
+          <div class="overlay">
+          </div>
+          <h1>Our bar</h1>
+        </section>
+      </a>
+      
+      <a href="">
+        <section id="oysters">
+          <div class="overlay"></div>
+          <h1>Oysters</h1>
+        </section>
+      </a>
+      
+      <a href="">
+        <section id="food">
+          <div class="overlay"></div>
+          <h1>Food</h1>
+        </section>
+      </a>
+      <a href="">
+        <section id="music">
+          <div class="overlay"></div>
+          <h1>Live Music</h1>
+        </section>
+      </a>
+    </section>
+    
+    <section class="gallery-wrapper main-wrapper">
+      <h1 class="content-header">Gallery Content</h1>
+      <h1 class="content-header">[viewport-scaling image carouse]</h1>
+    </section>
+    
+    <section class="about-wrapper main-wrapper">
+      <div class="about-group1">
+        <h1>Image content [image]</h1>
+      </div>
+      
+      <div class="about-group2">
+        <h1>About us content [text]</h1>
+      </div>
+      
+      <div class="about-group3">
+        <h1>Customer Reviews [carousel]</h1>
+      </div>
+      
+      <div class="about-group4">
+        <h1>Social Media (Follow Us) [facebook, instagram, etc]</h1>
+      </div>
+    </section>
+    
+    <section class="reservations-wrapper main-wrapper">
+      <h1>Reservations/Events Content [optional]</h1>
+    </section>
+    
+    <section class="contact-wrapper main-wrapper">
+      <h1>Contact section/Facebook feed<br>[business hours, phone, google maps, etc]</h1>
+    </section>
+    
+    <script src="jquery-1.11.1.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>

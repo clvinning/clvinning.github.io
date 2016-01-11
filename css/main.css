@@ -1,0 +1,163 @@
+/* All Content Styles --------------------------- */
+
+.main-wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+h1, p {
+  margin: 0 0;
+}
+
+/* Main Content Styles --------------------------- */
+
+.products-wrapper section,
+.about-wrapper div {
+  width: 50%;
+  height: 50%;
+  float: left;
+  clear: right;
+  box-sizing: border-box;
+}
+
+.about-wrapper div {
+  border-style: solid;
+  
+  
+}
+
+div.about-group1 {
+  
+}
+
+div.about-group2 {
+  
+}
+
+div.about-group3 {
+  
+}
+
+div.about-group4 {
+  background-color: #d71921;
+}
+
+.gallery-wrapper {
+  background-color: aqua;
+  background-image: linear-gradient(aqua, white);
+}
+
+h1.content-header {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  position: relative;
+}
+
+.home-wrapper {
+  background-image: url(../img/bghome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-wrapper h1 {
+  color: aliceblue;
+  width: 50%;
+  margin: auto;
+  padding-top: 20%;
+}
+
+a {
+  color: inherit;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  transition: 300ms ease-out;
+}
+
+.zoom-box {
+  border: 3px solid #fff;
+  top: -3px;
+  left: -3px;
+  transform: scale(.8);
+  transition: 300ms ease-out;
+  box-sizing: border-box;
+}
+
+
+.products-wrapper h1 {
+  position: relative;
+  top: -55%;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  vertical-align: top;
+}
+
+#drinks {
+  background-color: #DEDFD1;
+  background-image: url(../bar.jpg);
+  background-attachment: fixed;
+}
+
+#oysters {
+  background-color: aquamarine;
+  background-image: url(../oysters.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#food {
+  background-image: url(../food.jpg);
+  background-color: #000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#music {
+  background-image: url(../music.jpg);
+  background-color: bisque;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+}
+
+/* Animation Effects Styles ------------------------ */
+
+.fadeout {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
+
+section .grow {
+  width: 100%;
+  height: 100%;
+  transition: linear;
+}
+
+/* Media Queries ---------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .products-wrapper section {
+    width: 100%;
+    height: 25%;
+    float: none
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #music {
+    
+  }
+}
