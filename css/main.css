@@ -146,7 +146,7 @@ section .grow {
 
 /* Media Queries ---------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .products-wrapper section {
     width: 100%;
     height: 25%;
