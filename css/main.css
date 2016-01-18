@@ -21,11 +21,6 @@ h1, p {
   box-sizing: border-box;
 }
 
-.jR3DCarouselGallery {
-  height: 100vh !important;
-  width: 100% !important;
-}
-
 .about-wrapper div {
   border-style: solid;  
 }
@@ -44,6 +39,11 @@ div.about-group3 {
 
 div.about-group4 {
   background-color: #d71921;
+}
+
+.gallery-wrapper {
+  background-color: aqua;
+  background-image: linear-gradient(aqua, white);
 }
 
 h1.content-header {
