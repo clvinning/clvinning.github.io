@@ -46,6 +46,41 @@ div.about-group4 {
   background-image: linear-gradient(aqua, white);
 }
 
+.slick-slider {
+  margin: 0;
+}
+
+button.slick-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  
+}
+
+button.slick-next {
+  right: 10%;
+}
+
+button.slick-prev {
+  left: 10%;
+}
+
+.carousel-image {
+  height: 100vh;
+  width: 100%;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  width: inherit;
+  height: inherit;
+  background: url(../img/img1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1.content-header {
   width: 50%;
   margin: auto;
@@ -106,6 +141,8 @@ a {
   background-color: #DEDFD1;
   background-image: url(../bar.jpg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #oysters {
