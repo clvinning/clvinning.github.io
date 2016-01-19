@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 /* All Content Styles --------------------------- */
 
 .main-wrapper {
@@ -8,6 +9,10 @@
 
 h1, p {
   margin: 0 0;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Main Content Styles --------------------------- */
@@ -21,24 +26,63 @@ h1, p {
   box-sizing: border-box;
 }
 
-.about-wrapper div {
-  border-style: solid;  
+.about-wrapper div h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
-div.about-group1 {
+.about-group1 {
+  background-image: url(../img/about-image.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-group2 {
+  padding: 2%;
+}
+
+.about-group2 h1 {
+  color: #d71921;
+  font-size: 2.5em;
+}
+
+.about-group2 p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7em;
+  font-size: 1.5em;
   
 }
 
-div.about-group2 {
+.about-group3 {
   
 }
 
-div.about-group3 {
-  
-}
-
-div.about-group4 {
+.about-group4 {
   background-color: #d71921;
+  
+}
+
+.table {
+  display: table;
+}
+
+.social-media-content .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+.about-group4 .social-media-content {
+  width: 80%;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.media-text {
+  color: #fff;
+  font-size: 2.5em;
+  
 }
 
 .gallery-wrapper {
@@ -71,7 +115,7 @@ button.slick-prev {
   display: inline-block;
 }
 
-img {
+#img {
   display: block;
   width: inherit;
   height: inherit;
@@ -81,6 +125,7 @@ img {
   background-position: center;
 }
 
+/*
 h1.content-header {
   width: 50%;
   margin: auto;
@@ -88,6 +133,7 @@ h1.content-header {
   top: 50%;
   position: relative;
 }
+*/
 
 .home-wrapper {
   background-image: url(../img/bghome.jpg);
@@ -125,24 +171,26 @@ a {
 
 
 .products-wrapper h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 3em;
   font-weight: 300;
   color: aliceblue;
   position: relative;
-  top: -55%;
-  width: 50%;
+  top: -58%;
+  width: 70%;
   text-align: center;
   margin: auto;
-  vertical-align: top;
+  
 }
 
 #drinks {
   background-color: #DEDFD1;
   background-image: url(../bar.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
 }
 
 #oysters {
@@ -192,6 +240,8 @@ section .grow {
     height: 25%;
     float: none
   }
+  
+  
   
   a {
     text-decoration: none;
